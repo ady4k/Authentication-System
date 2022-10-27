@@ -1,8 +1,15 @@
 #include <iostream>
+#include <fstream>
+#include "user/user.h"
+#include "menu/menu.h"
 
 int main()
 {
-    std::cout << "Hello World!" << std::endl;
+    while(true)
+    {
+        showMainMenu();
+        std::cin.get();
+    }
 
     return 0;
 }
