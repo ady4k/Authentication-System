@@ -1,6 +1,4 @@
-#include <iostream>
-
-static char* loggedIn;
+#include "menu.h"
 
 void showAdminMenu()
 {
@@ -24,3 +22,7 @@ void showMainMenu()
     std::cout << "0. Exit";
 }
 
+void actionMainMenu()
+{
+    
+}
